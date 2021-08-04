@@ -7,3 +7,7 @@
 
 # specific exceptions of vscode development files.
 !vscode/*
+
+# go binaries and packages.
+go/bin
+go/pkg
