@@ -1,9 +1,0 @@
-{
-  "name": "Existing Dockerfile",
-  "context": "..",
-  "dockerFile": "../development.Dockerfile",
-  "forwardPorts": [],
-  "extensions": [
-    "golang.go",
-  ]
-}
