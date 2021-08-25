@@ -1,8 +1,8 @@
 package main
 
 import (
-	pk "access_modificators/my_package"
 	"fmt"
+	pk "main/my_package"
 )
 
 func main() {
