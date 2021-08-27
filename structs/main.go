@@ -9,23 +9,16 @@ type car struct {
 	year  int
 }
 
+func newCar(brand string, year int) *car {
+	return &car{brand: brand, year: year}
+}
+
 func main() {
 
-	// Creacion del Struct.
+	// Metodo 4 (simulacion de contructor)
 
-	my_car := car{brand: "hyundai", year: 2020}
+	car4 := newCar("Mazda", 2024)
 
-	// Impresion del Struct.
-
-	fmt.Println(my_car)
-
-	// Creacion del struct.
-
-	var other_car car
-	other_car.brand = "Ferrari"
-
-	// Impresion del Struct.
-
-	fmt.Println(other_car)
+	fmt.Println(*car4)
 
 }
